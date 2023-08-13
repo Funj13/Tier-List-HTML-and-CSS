@@ -1,0 +1,113 @@
+html,
+body {
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+    overflow-y: auto;
+    margin: 0;
+}
+
+body {
+    display: -webkit-box;
+    justify-content: safe;
+    align-items: stretch;
+    background-color: #696969;
+    padding: none;
+}
+
+.tabela {
+    position: absolute;
+    top: 50px;
+    left: 150px;
+    display: block;
+    background-color: var(--white);
+    box-shadow: 0px 0px 3px rgba(red, green, blue, alpha);
+    padding: clamp(35px, 8%, 90px);
+}
+
+.box img {
+    border-radius: 5px;
+    width: 150px;
+    height: 100px;
+}
+
+
+/* menu 2 */
+
+
+/* cor da nota e texto */
+
+#n6 {
+    color: var(--red);
+}
+
+#n7 {
+    color: var(--orange);
+}
+
+#n8 {
+    color: var(--blue);
+}
+
+#n9 {
+    color: var(--green);
+}
+
+#t {
+    color: var(--black);
+    border: solid 10px var(--transparent);
+    overflow: hidden;
+    text-decoration: none;
+}
+
+#funj {
+    color: var(--red);
+}
+
+
+/* indefined */
+
+#ind {
+    color: var(--purple);
+}
+
+#button-pag a {
+    color: var(--white);
+    font-style: none;
+    text-decoration: none;
+    background-color: var(--darkgrey);
+    border-radius: 6px;
+    border: solid 3px var(--darkgrey);
+}
+
+.rodape {
+    position: fixed;
+    left: 450px;
+    bottom: 0px;
+    background-color: var(--white);
+    box-shadow: rgb(126, 126, 126);
+}
+
+.rodape-acao {
+    position: fixed;
+    left: 450px;
+    bottom: 30px;
+}
+
+.funj {
+    position: absolute;
+    right: 200px;
+    top: 50px;
+}
+
+
+/*zoom*/
+
+.zoom {
+    overflow: hidden;
+    transition: all 0.3s;
+}
+
+.zoom:hover {
+    transform: scale(1.1);
+}

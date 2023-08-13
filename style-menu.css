@@ -1,0 +1,75 @@
+/* config padrão */
+
+* {
+    margin: 0;
+    padding: 0;
+    /* box-sizing: border-box; */
+    font-size: 14pt;
+    font-family: Arial, Helvetica, sans-serif;
+    overflow: hidden;
+}
+
+:root {
+
+    --white: #fff;
+    --red: #f00;
+    --darkred: #903;
+    --grey: #696969;
+    --black: #000;
+    --purple: #d705d7;
+    --darkgrey: #807e7e;
+    --transparent: rgba(0, 0, 0, 0);
+    --lightblue: #0f8cfa;
+    /*cores tabela nota*/
+    --bluee: #0000ff;
+    --green: #008000;
+    --orange: #ffa500;
+}
+
+.logo img {
+    height: 230px;
+    width: 130px;
+}
+
+
+/* menu 1 */
+
+ul#menucategoria li a:link {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 3px 8px;
+    margin: 1;
+    border: 1px solid var(--transparent);
+    background-color: var(--blue);
+    text-decoration: none;
+    list-style: none;
+    text-align: center;
+    display: inline-block;
+    width: 120px;
+    height: 25px;
+    
+
+    
+    /* cantos arrondados */
+    border-radius: 10px;
+    -moz-border-radius: 5px;
+}
+
+
+/* cor texto menu */
+
+#menucategoria a {
+    color: var(--white);
+}
+
+#menu-1 {
+    position: absolute;
+    top: 55px;
+    left: 8px;
+}
+.button-menu {
+    margin: auto;
+}
+ul#menucategoria li a{
+    text-align: center;
+
+}
